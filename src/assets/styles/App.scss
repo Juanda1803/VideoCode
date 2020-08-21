@@ -1,0 +1,14 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.home {
+  background: linear-gradient(#003459, #eb4b98);
+  height: 100%;
+}
