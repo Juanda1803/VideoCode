@@ -26,8 +26,8 @@ const Player = (props) => {
       </div>
     </div>
   ) : (
-    <NotFound />
-  );
+      <NotFound />
+    );
 };
 
 const mapStateToProps = (state) => {

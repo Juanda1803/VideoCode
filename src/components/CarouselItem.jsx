@@ -41,13 +41,13 @@ const CarouselItem = (props) => {
               onClick={() => handleDeleteFavorite(id)}
             />
           ) : (
-            <img
-              className="carousel-item__details--icon"
-              src="https://img.icons8.com/nolan/64/plus-math.png"
-              alt="plus"
-              onClick={handleSetFavorite}
-            />
-          )}
+              <img
+                className="carousel-item__details--icon"
+                src="https://img.icons8.com/nolan/64/plus-math.png"
+                alt="plus"
+                onClick={handleSetFavorite}
+              />
+            )}
         </div>
         <p className="carousel-item__details--title">{title}</p>
         <p className="caWrousel-item__details--subtitle">

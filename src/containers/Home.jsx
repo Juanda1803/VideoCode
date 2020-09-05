@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from "react";
 import { connect } from "react-redux";
@@ -10,10 +11,10 @@ import "../assets/styles/App.scss";
 
 const Home = ({ myList, trends, originals }) => {
   return (
-    <div className="home">
+    <div className="home-container">
       <Header />
 
-      <Search />
+      <Search isHome />
 
       {myList.length > 0 && (
         <Categories title="Mi Lista">
