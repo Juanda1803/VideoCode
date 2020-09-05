@@ -80,3 +80,7 @@ dist/
 *.png
 *.jpg
 *.jpeg
+
+# Files 
+maqueta.html/
+styles.scss/
