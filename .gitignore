@@ -74,3 +74,13 @@ yarn-error.log
 
 # Build
 dist/
+.vercel
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Files 
+maqueta.html/
+styles.scss/
