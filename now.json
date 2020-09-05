@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "VideoCode",
+  "builds": [
+    {
+      "use": "@now/static-build",
+      "src": "package.json"
+    }
+  ],
+  "routes": [
+    {
+      "src": "(.*).js",
+      "dest": "/$l.js"
+    },
+    {
+      "src": "(.*).json",
+      "dest": "/$l.json"
+    },
+    {
+      "src": "/.*",
+      "dest": "/dist/index.html"
+    }
+  ]
+}
